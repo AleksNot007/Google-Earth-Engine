@@ -193,10 +193,10 @@ for task in tasks[:5]:
 
 ```javascript
 // 0. Указать system:index нужного поля
-var FIELD_INDEX = '00000000000000000023';
+var FIELD_INDEX = '00000000000000000023'; //Индекс поля 
 
 // 1. Загрузить все поля
-var fields = ee.FeatureCollection('projects/crucial-runner-444819-i7/assets/field');
+var fields = ee.FeatureCollection('projects/project_id/assets/field');
 
 // Выбрать одно поле
 var field = ee.Feature(
